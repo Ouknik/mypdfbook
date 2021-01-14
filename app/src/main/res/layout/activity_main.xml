@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:id="@+id/lin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="240dp"
+    android:layout_marginStart="20dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Name the Book"/>
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entre Name the book"
+        android:textStyle="italic"
+        android:textColor="#120101"
+
+        />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin"
+        android:layout_marginStart="20dp"
+
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Linke the book:"/>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Select File from storange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/lin2"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="#A19999"
+        android:layout_centerHorizontal="true"
+        android:text="Upload file"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#0000ff"/>
+    <Button
+        android:id="@+id/go"
+        android:onClick="go"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="clikee here"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#0000ff"
+        android:layout_below="@+id/btn"
+        android:background="#A19999"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

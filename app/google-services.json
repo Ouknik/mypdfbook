@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "868181928367",
+    "project_id": "pdfbook-6835d",
+    "storage_bucket": "pdfbook-6835d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868181928367:android:d6e66a057a58a8ffb5275a",
+        "android_client_info": {
+          "package_name": "com.aknik.pdfbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868181928367-ebpq51971lp0lk7cae6opu28f1njc7fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwji9qAnRDh9soKZFHYxdbAfiy2-HVXbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868181928367-ebpq51971lp0lk7cae6opu28f1njc7fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

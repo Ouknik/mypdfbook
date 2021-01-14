@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#fff"
+    android:padding="40dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Login">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:background="#C5F390">
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CCBDBD"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:hint="   Email"
+                android:textStyle="italic"
+                android:layout_marginLeft="3dp"
+                android:textSize="13dp"
+                android:textColor="#120101"
+                android:textColorHint="#6E6E6E" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:background="#C5F390">
+
+            <EditText
+                android:id="@+id/passwordE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CCBDBD"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:hint="    Password"
+
+                android:layout_marginLeft="3dp"
+                android:inputType="numberPassword"
+                android:textSize="13dp"
+                android:maxLength="10"
+                android:textColor="#1B1B1B"
+                android:textColorHint="#6E6E6E" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/LoginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#065C1F"
+            android:text="SIGN IN"
+            android:layout_marginTop="12dp"
+            android:textSize="12dp"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>
